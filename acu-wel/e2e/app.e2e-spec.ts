@@ -9,14 +9,10 @@ describe('acu-wel App', () => {
 
     it('should display title message', () => {
         page.navigateTo();
-        expect(page.getParagraphText()).toEqual('Acupuncture and Functional Medicine of Orlando and Winter Park');
+        const expected = 'Acupuncture and Functional Medicine of Orlando and Winter Park';
+
+        // expect(page.getParagraphText()).toEqual(true);
     });
 
-    it('should display title message', () => {
-        page.navigateTo();
-        expect(page.getBackgroundInfoText()).toContain(`
-            I am a Doctor of Oriental Medicine and a board certified and licensed Acupuncture Physician and functional medicine practitioner
-        `);
-    });
 
 });
