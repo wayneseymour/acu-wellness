@@ -7,6 +7,7 @@
 
 # dependencies
 /node_modules
+/acu-wel/node_modules
 
 # IDEs and editors
 /.idea
