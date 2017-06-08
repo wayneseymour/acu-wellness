@@ -1,0 +1,3 @@
+#!/bin/sh
+export PHPRC=/vservers/susanschopbach/etc
+exec /usr/bin/php-cgi
