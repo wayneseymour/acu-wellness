@@ -8,4 +8,8 @@ export class AcuWelPage {
   getParagraphText() {
     return element(by.css('app-root h1')).getText();
   }
+
+  getBackgroundInfoText() {
+      return element(by.css('.background-info')).getText();
+  }
 }

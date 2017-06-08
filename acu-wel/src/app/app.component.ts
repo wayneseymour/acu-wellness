@@ -3,12 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   styleUrls: ['./app.component.css'],
-  template: `
-    <h1>
-      {{title}}
-    </h1>
-  `,
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
-  title = `Acupuncture and Functional Medicine of Orlando and Winter Park`;
+
 }
