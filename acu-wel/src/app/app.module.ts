@@ -6,12 +6,14 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {BackgroundInfoComponent} from './background-info/background-info.component';
 import { FavoritesComponent } from './favorites/favorites.component';
+import { SideRailComponent } from './side-rail/side-rail.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         BackgroundInfoComponent,
-        FavoritesComponent
+        FavoritesComponent,
+        SideRailComponent
     ],
     imports: [
         BrowserModule,

@@ -3,6 +3,7 @@ import {TestBed, async} from '@angular/core/testing';
 import {AppComponent} from './app.component';
 import {BackgroundInfoComponent} from "./background-info/background-info.component";
 import {FavoritesComponent} from "./favorites/favorites.component";
+import {SideRailComponent} from "./side-rail/side-rail.component";
 
 describe('AppComponent', () => {
     beforeEach(async(() => {
@@ -11,6 +12,7 @@ describe('AppComponent', () => {
                 AppComponent,
                 BackgroundInfoComponent,
                 FavoritesComponent,
+                SideRailComponent,
             ],
         }).compileComponents();
     }));
