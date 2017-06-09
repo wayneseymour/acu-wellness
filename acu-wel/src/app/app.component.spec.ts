@@ -6,6 +6,7 @@ import {FavoritesComponent} from "./favorites/favorites.component";
 import {SideRailComponent} from "./side-rail/side-rail.component";
 import {HeaderComponent} from "./header/header.component";
 import {TitleComponent} from "./title/title.component";
+import {HeadshotComponent} from "./headshot/headshot.component";
 
 describe('AppComponent', () => {
     beforeEach(async(() => {
@@ -17,6 +18,7 @@ describe('AppComponent', () => {
                 SideRailComponent,
                 HeaderComponent,
                 TitleComponent,
+                HeadshotComponent,
             ],
         }).compileComponents();
     }));

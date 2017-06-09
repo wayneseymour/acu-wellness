@@ -9,6 +9,7 @@ import { FavoritesComponent } from './favorites/favorites.component';
 import { SideRailComponent } from './side-rail/side-rail.component';
 import { HeaderComponent } from './header/header.component';
 import { TitleComponent } from './title/title.component';
+import { HeadshotComponent } from './headshot/headshot.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { TitleComponent } from './title/title.component';
         FavoritesComponent,
         SideRailComponent,
         HeaderComponent,
-        TitleComponent
+        TitleComponent,
+        HeadshotComponent
     ],
     imports: [
         BrowserModule,
