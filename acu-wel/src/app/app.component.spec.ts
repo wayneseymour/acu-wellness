@@ -8,6 +8,7 @@ import {HeaderComponent} from "./header/header.component";
 import {TitleComponent} from "./title/title.component";
 import {HeadshotComponent} from "./headshot/headshot.component";
 import {TestimonialComponent} from "./testimonial/testimonial.component";
+import {InsuranceFeesComponent} from "./insurance-fees/insurance-fees.component";
 
 describe('AppComponent', () => {
     beforeEach(async(() => {
@@ -21,6 +22,7 @@ describe('AppComponent', () => {
                 TitleComponent,
                 HeadshotComponent,
                 TestimonialComponent,
+                InsuranceFeesComponent,
             ],
         }).compileComponents();
     }));

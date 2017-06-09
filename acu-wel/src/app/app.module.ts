@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { TitleComponent } from './title/title.component';
 import { HeadshotComponent } from './headshot/headshot.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { InsuranceFeesComponent } from './insurance-fees/insurance-fees.component';
 
 @NgModule({
     declarations: [
@@ -21,7 +22,8 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
         HeaderComponent,
         TitleComponent,
         HeadshotComponent,
-        TestimonialComponent
+        TestimonialComponent,
+        InsuranceFeesComponent
     ],
     imports: [
         BrowserModule,
