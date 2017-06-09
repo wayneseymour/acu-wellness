@@ -5,6 +5,7 @@ import {BackgroundInfoComponent} from "./background-info/background-info.compone
 import {FavoritesComponent} from "./favorites/favorites.component";
 import {SideRailComponent} from "./side-rail/side-rail.component";
 import {HeaderComponent} from "./header/header.component";
+import {TitleComponent} from "./title/title.component";
 
 describe('AppComponent', () => {
     beforeEach(async(() => {
@@ -15,6 +16,7 @@ describe('AppComponent', () => {
                 FavoritesComponent,
                 SideRailComponent,
                 HeaderComponent,
+                TitleComponent,
             ],
         }).compileComponents();
     }));
@@ -25,18 +27,4 @@ describe('AppComponent', () => {
         expect(app).toBeTruthy();
     }));
 
-    it(`should have as title 'app works!'`, async(() => {
-        const fixture = TestBed.createComponent(AppComponent);
-        const app = fixture.debugElement.componentInstance;
-        expect([...app.title[0], ' ', ...app.title[1]])
-            .toEqual('Acupuncture and Functional Medicine of Orlando and Winter Park');
-    }));
-
-    it('should render title in a h1 tag', async(() => {
-        const fixture = TestBed.createComponent(AppComponent);
-        fixture.detectChanges();
-        const compiled = fixture.debugElement.nativeElement;
-        expect(compiled.querySelector('h1').textContent)
-            .toContain('Acupuncture');
-    }));
 });

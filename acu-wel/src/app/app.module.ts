@@ -8,6 +8,7 @@ import {BackgroundInfoComponent} from './background-info/background-info.compone
 import { FavoritesComponent } from './favorites/favorites.component';
 import { SideRailComponent } from './side-rail/side-rail.component';
 import { HeaderComponent } from './header/header.component';
+import { TitleComponent } from './title/title.component';
 
 @NgModule({
     declarations: [
@@ -15,7 +16,8 @@ import { HeaderComponent } from './header/header.component';
         BackgroundInfoComponent,
         FavoritesComponent,
         SideRailComponent,
-        HeaderComponent
+        HeaderComponent,
+        TitleComponent
     ],
     imports: [
         BrowserModule,
