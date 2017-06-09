@@ -12,6 +12,7 @@ import { TitleComponent } from './title/title.component';
 import { HeadshotComponent } from './headshot/headshot.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { InsuranceFeesComponent } from './insurance-fees/insurance-fees.component';
+import { EmailComponent } from './email/email.component';
 
 @NgModule({
     declarations: [
@@ -23,7 +24,8 @@ import { InsuranceFeesComponent } from './insurance-fees/insurance-fees.componen
         TitleComponent,
         HeadshotComponent,
         TestimonialComponent,
-        InsuranceFeesComponent
+        InsuranceFeesComponent,
+        EmailComponent
     ],
     imports: [
         BrowserModule,
