@@ -5,11 +5,13 @@ import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
 import {BackgroundInfoComponent} from './background-info/background-info.component';
+import { FavoritesComponent } from './favorites/favorites.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        BackgroundInfoComponent
+        BackgroundInfoComponent,
+        FavoritesComponent
     ],
     imports: [
         BrowserModule,
