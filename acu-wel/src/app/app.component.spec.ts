@@ -7,6 +7,7 @@ import {SideRailComponent} from "./side-rail/side-rail.component";
 import {HeaderComponent} from "./header/header.component";
 import {TitleComponent} from "./title/title.component";
 import {HeadshotComponent} from "./headshot/headshot.component";
+import {TestimonialComponent} from "./testimonial/testimonial.component";
 
 describe('AppComponent', () => {
     beforeEach(async(() => {
@@ -19,6 +20,7 @@ describe('AppComponent', () => {
                 HeaderComponent,
                 TitleComponent,
                 HeadshotComponent,
+                TestimonialComponent,
             ],
         }).compileComponents();
     }));

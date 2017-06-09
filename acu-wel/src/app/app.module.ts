@@ -10,6 +10,7 @@ import { SideRailComponent } from './side-rail/side-rail.component';
 import { HeaderComponent } from './header/header.component';
 import { TitleComponent } from './title/title.component';
 import { HeadshotComponent } from './headshot/headshot.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import { HeadshotComponent } from './headshot/headshot.component';
         SideRailComponent,
         HeaderComponent,
         TitleComponent,
-        HeadshotComponent
+        HeadshotComponent,
+        TestimonialComponent
     ],
     imports: [
         BrowserModule,
