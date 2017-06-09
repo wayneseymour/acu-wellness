@@ -4,6 +4,7 @@ import {AppComponent} from './app.component';
 import {BackgroundInfoComponent} from "./background-info/background-info.component";
 import {FavoritesComponent} from "./favorites/favorites.component";
 import {SideRailComponent} from "./side-rail/side-rail.component";
+import {HeaderComponent} from "./header/header.component";
 
 describe('AppComponent', () => {
     beforeEach(async(() => {
@@ -13,6 +14,7 @@ describe('AppComponent', () => {
                 BackgroundInfoComponent,
                 FavoritesComponent,
                 SideRailComponent,
+                HeaderComponent,
             ],
         }).compileComponents();
     }));
