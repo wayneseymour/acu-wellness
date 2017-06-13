@@ -13,6 +13,8 @@ import { HeadshotComponent } from './headshot/headshot.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { InsuranceFeesComponent } from './insurance-fees/insurance-fees.component';
 import { EmailComponent } from './email/email.component';
+import appRoutes from "./app.routes";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
     declarations: [
@@ -25,15 +27,17 @@ import { EmailComponent } from './email/email.component';
         HeadshotComponent,
         TestimonialComponent,
         InsuranceFeesComponent,
-        EmailComponent
+        EmailComponent,
+        HomeComponent,
     ],
     imports: [
         BrowserModule,
         FormsModule,
-        HttpModule
+        HttpModule,
+        appRoutes,
     ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
 })
 export class AppModule {
 }
