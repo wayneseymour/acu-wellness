@@ -15,6 +15,7 @@ import { InsuranceFeesComponent } from './insurance-fees/insurance-fees.componen
 import { EmailComponent } from './email/email.component';
 import appRoutes from "./app.routes";
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
     declarations: [
@@ -29,6 +30,7 @@ import { HomeComponent } from './home/home.component';
         InsuranceFeesComponent,
         EmailComponent,
         HomeComponent,
+        ContactComponent,
     ],
     imports: [
         BrowserModule,
