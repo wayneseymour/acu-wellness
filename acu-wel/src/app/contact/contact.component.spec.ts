@@ -12,7 +12,7 @@ describe('ContactComponent', () => {
             declarations: [
                 ContactComponent,
                 FeesComponent,
-            ]
+            ],
         })
             .compileComponents();
     }));
