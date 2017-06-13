@@ -16,6 +16,7 @@ import { EmailComponent } from './email/email.component';
 import appRoutes from "./app.routes";
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { FeesComponent } from './fees/fees.component';
 
 @NgModule({
     declarations: [
@@ -31,6 +32,7 @@ import { ContactComponent } from './contact/contact.component';
         EmailComponent,
         HomeComponent,
         ContactComponent,
+        FeesComponent,
     ],
     imports: [
         BrowserModule,
